@@ -2,3 +2,14 @@
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
 }
+.headingFont{
+    font-family: "Adamina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.paraFont{
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
