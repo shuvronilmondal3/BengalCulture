@@ -5,8 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Darjeeling</title>
+
     <link rel="stylesheet" href="/src/output.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,8 +25,19 @@
 </head>
 
 <body>
-    <h1>Darjeeling</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque corrupti sequi soluta odio vel perferendis porro quae quam aliquam, optio assumenda voluptate quas provident quaerat itaque in ullam saepe.</p>
+    <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="text-3xl font ml-0">Darjeeling</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer">
+        <a class="mr-5 hover:text-gray-900" href="/dist/index.html">Home</a>
+        <a class="mr-5 hover:text-gray-900" href="#">About</a>
+        <a class="mr-5 hover:text-gray-900" href="/dist/Contactus.html">Contact</a>
+        
+      </nav>
+    </div>
+  </header>
 </body>
 
 </html>
